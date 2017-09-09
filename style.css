@@ -1,6 +1,6 @@
 body{
   background-image: url('photo/fond1.jpg');
-  /*background: linear-gradient(to right, #3D0303, white, #3D0303);*/
+  background-attachment: fixed;
 }
 div{
     border-radius: 1em;
@@ -9,7 +9,7 @@ div{
     position: relative;
     z-index: 1;
     height:120px;
-    width: 98%;
+    width: 100%;
     background:linear-gradient(black, maroon) ;
     margin-bottom: 10px
 }
@@ -50,7 +50,7 @@ a:hover {
     height:40px;
     clear:both;
     position: relative;
-    background-color: maroon;
+    background: linear-gradient(maroon, black);
 }
 h3{
   font-family: Gill Sans, sans-serif;
@@ -59,13 +59,15 @@ h3{
 }
 .title{
   background: linear-gradient(60deg, black, #4C1B1B, #B9121B);
-  color: #46B3A5;
+  /*color: #46B3A5;*/
+  color: #E14A4A
+;
   border-radius: 1em;
 }
-#job-dev{
+#job-dev {
     padding: 1px;
 }
-.job-title{
+.job-title, #heading{
     font-weight: bold;
 }
 table{
